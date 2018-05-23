@@ -1,3 +1,6 @@
+# ⚠️ ✋ DEPRECATED ✋ DO NOT USE ✋ ⚠️ 
+## Code Demo Only
+
 # MemSQL Online Upgrade 
 
 MemSQL Online Upgrade is a Go project for upgrading MemSQL from 5.x to a newer 5.x version.
