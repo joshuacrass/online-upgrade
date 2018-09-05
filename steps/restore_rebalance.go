@@ -1,7 +1,7 @@
 package steps
 
 import (
-	"github.com/memsql/online-upgrade/util"
+	"github.com/joshuacrass/online-upgrade/util"
 )
 
 // RestoreRedundancy to all user databases

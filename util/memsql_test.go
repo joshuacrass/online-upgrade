@@ -1,8 +1,8 @@
 package util_test
 
 import (
-	"github.com/memsql/online-upgrade/testutil"
-	"github.com/memsql/online-upgrade/util"
+	"github.com/joshuacrass/online-upgrade/testutil"
+	"github.com/joshuacrass/online-upgrade/util"
 
 	"testing"
 

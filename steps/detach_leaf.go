@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/briandowns/spinner"
-	"github.com/memsql/online-upgrade/util"
+	"github.com/joshuacrass/online-upgrade/util"
 )
 
 type LeafPair struct {

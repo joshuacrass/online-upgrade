@@ -15,12 +15,12 @@ endif
 # e.g. make test test='./util/ops_test.go'
 test: docker-clean docker-network vendor build-memsql 
 	docker run -di --network=memsql --name=online-upgrade-child \
-		-v $(PWD):/go/src/github.com/memsql/online-upgrade \
-		-w /go/src/github.com/memsql/online-upgrade \
+		-v $(PWD):/go/src/github.com/joshuacrass/online-upgrade \
+		-w /go/src/github.com/joshuacrass/online-upgrade \
 		memsql-online-upgrade
 	docker run -t -i --network=memsql --name=online-upgrade-master \
-		-v $(PWD):/go/src/github.com/memsql/online-upgrade \
-		-w /go/src/github.com/memsql/online-upgrade \
+		-v $(PWD):/go/src/github.com/joshuacrass/online-upgrade \
+		-w /go/src/github.com/joshuacrass/online-upgrade \
 		memsql-online-upgrade \
 		go test -p 1 -v -timeout 30m $(test)
 
@@ -43,12 +43,12 @@ docker-network:
 # specified in the Dockerfile. (ssh root@online-upgrade-child)
 test-image-shell: docker-clean docker-network vendor
 	docker run -di --network=memsql --name=online-upgrade-child \
-		-v $(PWD):/go/src/github.com/memsql/online-upgrade \
-		-w /go/src/github.com/memsql/online-upgrade \
+		-v $(PWD):/go/src/github.com/joshuacrass/online-upgrade \
+		-w /go/src/github.com/joshuacrass/online-upgrade \
 		memsql-online-upgrade
 	docker run -t -i --network=memsql --name=online-upgrade-master \
-		-v $(PWD):/go/src/github.com/memsql/online-upgrade \
-		-w /go/src/github.com/memsql/online-upgrade \
+		-v $(PWD):/go/src/github.com/joshuacrass/online-upgrade \
+		-w /go/src/github.com/joshuacrass/online-upgrade \
 		memsql-online-upgrade \
 		/bin/bash
 		

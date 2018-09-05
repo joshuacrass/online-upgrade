@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/briandowns/spinner"
-	"github.com/memsql/online-upgrade/util"
+	"github.com/joshuacrass/online-upgrade/util"
 )
 
 // TODO: Check for unmonitored nodes

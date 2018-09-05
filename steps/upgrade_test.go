@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/memsql/online-upgrade/steps"
-	"github.com/memsql/online-upgrade/testutil"
-	"github.com/memsql/online-upgrade/util"
+	"github.com/joshuacrass/online-upgrade/steps"
+	"github.com/joshuacrass/online-upgrade/testutil"
+	"github.com/joshuacrass/online-upgrade/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

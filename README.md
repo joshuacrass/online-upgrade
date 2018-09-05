@@ -142,7 +142,7 @@ Build and test your new function or step. This process is out of scope for this 
 
 #### Testing
 
-There are several ways to get stated with testing. First, start by running `make test-image-shell` from within the `memsql-online-upgrade` repo directory (`go-workspace/src/github.com/memsql/online-upgrade/`).
+There are several ways to get stated with testing. First, start by running `make test-image-shell` from within the `memsql-online-upgrade` repo directory (`go-workspace/src/github.com/joshuacrass/online-upgrade/`).
 
 ```
 [online-upgrade]$ make test-image-shell
@@ -177,7 +177,7 @@ make test-image-shell
 Now you should see a prompt like this:
 
 ```
-root@online-upgrade-master:/go/src/github.com/memsql/online-upgrade#
+root@online-upgrade-master:/go/src/github.com/joshuacrass/online-upgrade#
 ```
 
 Now, execute a test. Note `-p 1` is required for running multiple tests at the same time due to `go test` invoking parallelization by default.

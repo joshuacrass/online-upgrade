@@ -71,7 +71,7 @@ RUN memsql-ops sqlite /var/lib/memsql-ops/data/topology.db -e "delete from agent
 # Code environment
 ENV GOPATH /go
 ENV PATH /go/bin:$PATH
-RUN mkdir -p /go/src/github.com/memsql/online-upgrade
+RUN mkdir -p /go/src/github.com/joshuacrass/online-upgrade
 RUN go get github.com/Masterminds/glide
 
 CMD /usr/sbin/sshd && bash

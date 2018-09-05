@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/briandowns/spinner"
-	"github.com/memsql/online-upgrade/util"
+	"github.com/joshuacrass/online-upgrade/util"
 )
 
 // SnapshotDatabases will snapshot all user databases prior to upgrade

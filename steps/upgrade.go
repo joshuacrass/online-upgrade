@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/briandowns/spinner"
-	"github.com/memsql/online-upgrade/util"
+	"github.com/joshuacrass/online-upgrade/util"
 )
 
 var s = spinner.New(spinner.CharSets[14], 100*time.Millisecond)

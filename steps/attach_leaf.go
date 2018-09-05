@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/briandowns/spinner"
-	"github.com/memsql/online-upgrade/util"
+	"github.com/joshuacrass/online-upgrade/util"
 )
 
 // AttachLeaves will attach all leaves in a specifed availability group.

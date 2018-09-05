@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/memsql/online-upgrade/util"
+	"github.com/joshuacrass/online-upgrade/util"
 	"github.com/stretchr/testify/require"
 )
 

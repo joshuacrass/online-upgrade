@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/memsql/online-upgrade/steps"
-	"github.com/memsql/online-upgrade/util"
+	"github.com/joshuacrass/online-upgrade/steps"
+	"github.com/joshuacrass/online-upgrade/util"
 )
 
 func main() {
